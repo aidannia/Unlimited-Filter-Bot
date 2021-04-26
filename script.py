@@ -1,11 +1,11 @@
 class Script(object):
 
-    START_MSG = """<b>Hy {},
+    START_MSG = """<b>Hi {},
 
-I'm an advanced filter bot with many capabilities!
-There is no practical limits for my filtering capacity :)
+I'm Σуωα, an Advanced Filter Bot with many capabilities!
+There is no practical limits for my filtering capacity :)!
 
-See <i>/help</i> for commands and more details.</b>
+See HELP for commands and more details.</b>
 """
 
 
@@ -16,7 +16,7 @@ See <i>/help</i> for commands and more details.</b>
 <b>Basic Commands;</b>
 
 /start - Check if I'm alive!
-/help - Command help
+/help - Command help!
 /about - Something about me!
 
 
@@ -41,23 +41,24 @@ See <i>/help</i> for commands and more details.</b>
 
 <b>Extras;</b>
 
-/status  -  Shows current status of your bot (Auth User Only)
-
 /id  -  Shows ID information
 
 <code>/info userid</code>  -  Shows User Information. Use <code>/info</code> as reply to some message for their details!
 
 
-<b>© @TroJanzHEX</b>
+<b>© @AidanNia</b>
 """
 
 
-    ABOUT_MSG = """⭕️<b>My Name : TroJanz Filter Bot</b>
+    ABOUT_MSG = """🦋<b>My Name : Σуωα</b>
+    
+🦋<b>Creater : @AidanNia</b>
 
-⭕️<b>Creater :</b> @TroJanzHEX    
+🦋<b>Language : <code>Python 3</code></b>
 
-⭕️<b>Language :</b> <code>Python3</code>
+🦋<b>Library : <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a></b>
+ 
+🦋<b>Support Chat : <a href='https://t.me/EywasSC'>Click Here</a></b>
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
-
+🦋<b>My Channel : <a href='https://t.me/EywasUpdates'>Click Here</a></b>
 """
