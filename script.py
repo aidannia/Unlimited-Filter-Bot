@@ -5,6 +5,8 @@ class Script(object):
 I'm Σуωα, an Advanced Filter Bot with many capabilities!
 There is no practical limits for my filtering capacity :)!
 
+But, as for now, you can’t add me to any chat, without my [creator](https://t.me/AidanNia)’s concern...🙃!
+
 See HELP for commands and more details.</b>
 """
 
