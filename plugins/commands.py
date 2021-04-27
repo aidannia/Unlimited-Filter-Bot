@@ -217,7 +217,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🖲 COMMAND HELP 🖲", callback_data="help_data")
+                    InlineKeyboardButton("🖲 HELP 🖲", callback_data="help_data"),
+                    InlineKeyboardButton("☘️ ABOUT ☘️", callback_data="about_data")
                 ]
             ]
         ),
