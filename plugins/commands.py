@@ -249,7 +249,7 @@ async def help(client, message):
                 ],
                 [
                     InlineKeyboardButton("🦋 UPDATES 🦋", url="https://t.me/EywasUpdates"),
-                    InlineKeyboardButton("🦋 CHATS 🦋", url="https://t.me/EywasSC")
+                    InlineKeyboardButton("🦋 CHAT 🦋", url="https://t.me/EywasSC")
                 ]
             ]
         ),
