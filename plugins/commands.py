@@ -217,7 +217,8 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🖲 COMMAND HELP 🖲", callback_data="help_data")
+                    InlineKeyboardButton("🖲 HELP 🖲", callback_data="help_data"),
+                    InlineKeyboardButton("☘️ ABOUT ☘️", callback_data=about_data")
                 ]
             ]
         ),
@@ -243,11 +244,12 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("About Me", callback_data="about_data")
+                    InlineKeyboardButton("🚶‍♂️ BACK 🚶‍♂️", callback_data="start_data"),
+                    InlineKeyboardButton("☘️ ABOUT ☘️", callback_data="about_data")
                 ],
                 [
                     InlineKeyboardButton("🦋 UPDATES 🦋", url="https://t.me/EywasUpdates"),
-                    InlineKeyboardButton("🦋 SUPPORTS 🦋", url="https://t.me/EywasSC")
+                    InlineKeyboardButton("🦋 CHATS 🦋", url="https://t.me/EywasSC")
                 ]
             ]
         ),
@@ -268,7 +270,7 @@ async def about(client, message):
                 ],
                 [
                     InlineKeyboardButton("🚶‍♂️ BACK 🚶‍♂️", callback_data="help_data"),
-                    InlineKeyboardButton("🗑 CLOSE 🗑", callback_data="close_data"),
+                    InlineKeyboardButton("💫 START 💫", callback_data="start_data"),
                 ]                
             ]
         ),
